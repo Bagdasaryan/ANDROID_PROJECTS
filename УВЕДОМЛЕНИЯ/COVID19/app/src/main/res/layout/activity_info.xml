@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:background="#fff"
+    >
+    <TextView
+        android:id="@+id/idCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="Country"
+        />
+    <TextView
+        android:id="@+id/idConfirmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:text="Confirmed +100"
+        />
+    <TextView
+        android:id="@+id/idDeaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:text="Deaths +10"
+        />
+    <TextView
+        android:id="@+id/idRecovered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:text="Recovered +50"
+        />
+</LinearLayout>
